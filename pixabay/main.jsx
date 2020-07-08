@@ -132,9 +132,7 @@ class App extends React.Component {
                     <div className="result-buttons">
                         {results}
                     </div>
-
                 </div>
-
             </div>
         );
     }

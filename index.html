@@ -1,7 +1,235 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fatima Majid - Software Developer Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap">
+        <link rel="shortcut icon" href="images/avatar-square.svg">
+        <script src="https://www.gstatic.com/charts/loader.js" defer></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img class="avatar" src="images/avatar.svg">
+            <div class="name">
+                <h1>Fatima Majid</h1>
+                <p>Software Developer</p>
+                <a class="contact-link" href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Me</a>
+            </div>
+            <img class="computer" src="images/computer.svg">
+        </header>
+        <main>
+            <section class="skills">
+                <div class="skill-groups">
+                    <div class="programming-images">
+                        <img src="images/javascript.svg" title="JavaScript" class="javascript">
+                        <img src="images/react.svg" title="React" class="react">
+                        <img src="images/html5.svg" title="HTML5" class="html5">
+                        <img src="images/python.svg" title="Python" class="python">
+                        <img src="images/java.svg" title="Java" class="java">
+                    </div>
+                    <div class="programming">
+                        <h3>Programming</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Flask</li>
+                            <li>Java</li>
+                            <li>HTML5</li>
+                            <li>TDD</li>
+                            <li>HTTP/REST</li>
+                            <li>C#</li>
+                            <li>C++</li>
+                            <li>Git/GitHub</li>
+                            <li>MATLAB</li>
+                            <li>Agile/Scrum</li>
+                            <li>NumPy</li>
+                            <li>Sklearn</li>
+                            <li>LaTeX</li>
+                        </ul>
+                    </div>
+                    <div class="languages">
+                        <h3>Languages</h2>
+                        <ul>
+                            <li>English</li>
+                            <li>Arabic</li>
+                            <li>Farsi/Persian</li>
+                            <li>Swedish</li>
+                        </ul>
+                    </div>
+                    <div class="programming-images">
+                        <img src="images/csharp.svg" title="C#" class="csharp">
+                        <img src="images/matlab.png" title="MATLAB" class="matlab">
+                        <img src="images/vscode.svg" title="Visual Studio Code" class="vscode">
+                        <img src="images/github-white.svg" title="GitHub" class="github">
+                    </div>
+                </div>
+                <a class="cv-link" href="FatimaMajidCV.pdf">Download My CV</a>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <!-- <a href="https://fatimamaj.pythonanywhere.com/" target="_blank" class="project">
+                        <img class="project-image" src="images/chess-screenshot.jpg">
+                        <div class="project-description">
+                            <h3>Chess</h3>
+                            <p class="project-summary">Chess game with Python Flask backend and JavaScript React frontend</p>
+                            <div class="project-tags">
+                                <img src="images/python.svg" title="Python">
+                                <img src="images/javascript.svg" title="JavaScript">
+                                <img src="images/react.svg" title="React">
+                            </div>
+                            <p class="project-button">♟ Play Chess</p>
+                        </div>
+                    </a> -->
+                    <a href="https://fatimamaj.github.io/image-search" class="project">
+                        <img class="project-image" src="images/pixabay-screenshot.png">
+                        <div class="project-description">
+                            <h3>Image Search</h3>
+                            <p class="project-summary">Image search engine with JavaScript React frontend using Pixabay REST API</p>
+                            <div class="project-tags">
+                                <img src="images/javascript.svg" title="JavaScript">
+                                <img src="images/react.svg" title="React">
+                            </div>
+                            <p class="project-button">📷 Try It</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/FatimaMaj/DNASequenceAssembly" class="project">
+                        <img class="project-image" src="images/dna.jpg">
+                        <div class="project-description">
+                            <h3>DNA Sequence Assembly</h3>
+                            <p class="project-summary">Java tool that assembles DNA sequences using artificial intelligence</p>
+                            <div class="project-tags">
+                                <img src="images/java.svg" title="Java">
+                            </div>
+                            <p class="project-button">🧬 See the Code</p>
+                        </div>
+                    </a>
+                    <!-- <a href="" class="project github">
+                        <img class="project-image" src="images/github-black.svg">
+                        <div class="project-description">
+                            <h3>Code Samples</h3>
+                            <p class="project-summary">Code samples on my GitHub page</p>
+                            <div class="project-tags">
+                                <img src="images/python.svg" title="Python">
+                                <img src="images/javascript.svg" title="JavaScript">
+                                <img src="images/react.svg" title="React">
+                                <img class="java" src="images/java3.svg" title="Java">
+                            </div>
+                            <p class="project-button">👩🏻‍💻 See the Code</p>
+                        </div>
+                    </a> -->
+                </div>
+            </section>
+            <section class="experience">
+                <div class="experience-images">
+                    <img src="images/ericsson.svg" title="Ericsson">
+                    <img src="images/bokio.svg" title="Bokio">
+                </div>
+                <section class="work">
+                    <h2>Work Experience</h2>
+                    <div class="experience-item">
+                        <h3 class="experience-title">Data Analyst</h3>
+                        <p class="experience-organization">Bokio</p>
+                        <p class="experience-date">📅 October 2019 - February 2020</p>
+                        <p class="experience-location">🌍 Gothenburg, Sweden</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-title">Developer - Functional Test and Test Automation</h3>
+                        <p class="experience-organization">Ericsson</p>
+                        <p class="experience-date">📅 January 2019 - June 2019</p>
+                        <p class="experience-location">🌍 Gothenburg, Sweden</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-title">Software Developer</h3>
+                        <p class="experience-organization">Ericsson</p>
+                        <p class="experience-date">📅 January 2018 - June 2018</p>
+                        <p class="experience-location">🌍 Karlskrona, Sweden</p>
+                    </div>
+                </section>
+                <section class="education">
+                    <h2>Education</h2>
+                    <div class="experience-item">
+                        <h3 class="experience-title">MSc Computer Science</h3>
+                        <p class="experience-organization">Malmö University</p>
+                        <p class="experience-date">📅 2018 - 2020</p>
+                        <p class="experience-location">🌍 Malmö, Sweden</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-title">MSc Computer Science - Specialization in Embedded Systems</h3>
+                        <p class="experience-organization">Kristianstad University</p>
+                        <p class="experience-date">📅 2015 - 2016</p>
+                        <p class="experience-location">🌍 Kristianstad, Sweden</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-title">BSc Computing &amp; Information Systems</h3>
+                        <p class="experience-organization">Goldsmiths University of London</p>
+                        <p class="experience-date">📅 2011 – 2015</p>
+                        <p class="experience-location">🌍 London, UK</p>
+                    </div>
+                </section>
+                <div class="experience-images">
+                    <img src="images/malmö.svg" title="Malmö University">
+                    <img src="images/kristianstad.svg" title="Kristianstad University">
+                    <img src="images/goldsmiths.svg" title="Goldsmiths University of London">
+                </div>
+            </section>
+            <section class="day">
+                <h2>A Day in My Life</h2>
+                <figure id="day-chart"></figure>
+            </section>
+            <section class="publications">
+                <h2>Publications</h2>
+                <div class="experience-item">
+                    <h3 class="experience-title">
+                        <a href="https://research.gold.ac.uk/17244/1/2016_Stu_Comp_Intell_DNA.pdf">Maximising overlap score in DNA sequence assembly problem by Stochastic Diffusion</a>
+                    </h3>
+                    <p class="experience-organization">Intelligent Systems and Applications: Extended and Selected Results from the SAI Intelligent Systems Conference (IntelliSys) 2015</p>
+                    <p class="experience-date">📅 January 2016</p>
+                    <p class="experience-location">🌍 University of London</p>
+                </div>
+                <div class="experience-item">
+                    <h3 class="experience-title">
+                        <a href="https://research.gold.ac.uk/17255/1/2015_IntelliSys_DNA.pdf">Investigating Stochastic Diffusion Search in DNA sequence assembly problem</a>
+                    </h3>
+                    <p class="experience-organization">SAI Intelligent Systems Conference (IntelliSys), 2015</p>
+                    <p class="experience-date">📅 August 2015</p>
+                    <p class="experience-location">🌍 University of London</p>
+                </div>
+            </section>
+        </main>
+        <footer id="contact">
+            <h2>Contact Me</h2>
+            <ul class="contact-list">
+                <li class="contact-email">
+                    <a href="mailto:majid.fatima@gmail.com">
+                        <span class="contact-emoji">📧</span>
+                        <span class="contact-text">majid.fatima@gmail.com</span>
+                    </a>
+                </li>
+                <li class="contact-phone">
+                    <a href="tel:+46722953094">
+                        <span class="contact-emoji">📞</span>
+                        <span class="contact-text">+46 (0)722-953-094</span>
+                    </a>
+                </li>
+                <li class="contact-linkedin">
+                    <a href="https://www.linkedin.com/in/fatima-majid-000ab651/">
+                        <span class="contact-emoji">👩🏻‍💼</span>
+                        <span class="contact-text">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="contact-github">
+                    <a href="https://github.com/FatimaMaj">
+                        <span class="contact-emoji">👩🏻‍💻</span>
+                        <span class="contact-text">GitHub</span>
+                    </a>
+                </li>
+            </ul>
+            <a class="cv-link" href="FatimaMajidCV.pdf">Download My CV</a>
+        </footer>
+    </body>
 </html>

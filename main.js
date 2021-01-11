@@ -6,13 +6,13 @@ function drawChart() {
     data.addColumn('string', 'Topping');
     data.addColumn('number', 'Slices');
     data.addRows([
-        ['Sport and other activities', 10],
-        ['Meeting friends', 5],
-        ['Working and coding', 25],
-        ['Reading, cooking, and eating', 10],
         ['Watching documentaries and movies', 10],
+        ['Sport and other activities', 10],
+        ['Dreaming about new challenges', 25],
+        ['Meeting friends', 5],
         ['Checking the latest tech news', 10],
-        ['Sleeping & dreaming about starting a new job', 25],
+        ['Reading, cooking, and eating', 10],
+        ['Working and coding', 25],
     ]);
 
     let options = {
